@@ -1,0 +1,7 @@
+1:cat:persian:below 5 years old:female:yes:yes:yes:fun:Louay Helou:louayhelou52@gmail.com
+2:cat:persian:between 6 and 10 years old:female:no:yes:yes:not fun:Louay Helou:louayhelou52@gmail.com
+3:dog:german shepard:between 11 and 15 years old:male:yes:yes:no:Cool:Louay Helou:rick@gmail.com
+4:dog:malinois:between 6 and 10 years old:female:yes:yes:yes:witty:Louay Helou:rick@gmail.com
+5:dog:poodle:below 5 years old:female:no:yes:yes:quick:Louay Helou:rick@gmail.com
+6:dog:pitbull:between 11 and 15 years old:male:yes:yes:no:smart:Louay Helou:louayhelou52@gmail.com
+7:dog:corgi:between 6 and 10 years old:female:no:yes:no:stubborn:Louay Helou:louayhelou52@gmail.com

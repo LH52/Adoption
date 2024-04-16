@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Give Away</title>
+        <meta charset="UTF-8">
+        <script src="ex7.js"></script>
+        <style>
+            table{
+                width:100%;
+                border-collapse: collapse;
+                border: 1px solid black;
+                
+            }
+            td,tr{
+                border: 1px solid black;
+            }
+            #time{
+                text-align: center;
+            }
+            #disclaimer{
+                padding:20px;
+                color:white;
+                background-color: black;
+                
+
+            }
+            #description{
+                
+                height:150px;
+                width:400px;
+            }
+            a:link#disc{
+                color:white;
+            }
+            a:visited#disc{
+                color:red;
+            }
+            a:hover#disc{
+                color:darkgoldenrod;
+            }
+            span{
+                font-size: 18px;
+                font-weight: bold;
+            }
+            .sub{
+                margin-top:50px;
+            }
+            
+        </style>
+
+    </head>
+
+    <body>
+        <table>
+            <tr>
+                <th colspan="2"><p style="font-size: 60px;margin-top:0;margin-bottom:0;">Adopt Montreal</p><a href="home.html"><img src="logo.png" alt="logo" height="100" id="logo"></a> <p id="time"></p></th>
+            </tr>
+            <tr>
+                <td style="width:20%;vertical-align: top;padding-top:50px;">
+                    <a href="home.html">Home Page</a><br>
+                    <a href="/Creat" method="GET" action="/Creat">Create an account</a><br>
+                    <a href="/find" method="GET" action="/find">Find a dog/cat</a><br>
+                    <a href="dog.html">Dog Care</a><br>
+                    <a href="cat.html">Cat Care</a><br>
+                    <a href="/drop" method="GET" action="/drop">Have a pet to giveaway?</a><br>
+                    <a href="/logo" method="GET" action="/logo">Logout</a><br>
+                    <a href="contact.html">Contact Us</a>
+
+                </td>
+
+                <td style="padding:50px;">
+                    <h2>Have a pet to giveaway?</h2>
+                    <form method="POST" action="/animalWrite">
+                        <label><input type="radio" name="animal" value="cat">Cat</label>
+                        <label><input type="radio" name="animal" value="dog">Dog</label><br>
+                        <h3>Breed of animal</h3>
+                        <input type="text" name="breed" placeholder="Breed*">
+                        <h2>Age</h2>
+                        <label><input type="radio" value="below 5 years old" name="age">0-5</label>
+                        <label><input type="radio" value="between 6 and 10 years old" name="age">6-10</label>
+                        <label><input type="radio" value="between 11 and 15 years old" name="age">11-15</label>
+                        <label><input type="radio" value="above 16 years old" name="age">16+</label>
+
+                        <h2>Gender</h2>
+                        <label> <input type="radio" value="female" name="gender">Female</label>
+                        <label><input type="radio" value="male" name="gender">Male<br></label>
+                        <h2>Gets along with other dogs?</h2>
+                        <label> <input type="radio" value="yes" name="dogfriendly">Yes</label>
+                        <label> <input type="radio" value="no" name="dogfriendly">No</label><br>
+                        <h2>Gets along with other cats?</h2>
+                        <label> <input type="radio" value="yes" name="catfriendly">Yes</label>
+                        <label> <input type="radio" value="no" name="catfriendly">No</label><br>
+                        <h2>Suitable for families with small children?</h2>
+                        <label> <input type="radio" value="yes" name="familyfriendly">Yes</label>
+                        <label> <input type="radio" value="no" name="familyfriendly">No</label><br>
+                        <h3>Description of the animal</h3>
+                        <input type="text" name="description" placeholder="Write a brief description of your pet" style="width:300px;"></textarea><br>
+                        <h2>Owner's information</h2>
+                        <span>First name:</span>
+                        <input type="text" name="fname" placeholder="First name*" size="6"><br>
+                        <span>Last name:</span>
+                        <input type="text" name="lname" placeholder="Last name*" size="6"><br>
+                        <span>Email address</span>
+                        <input type="text" name="email" placeholder="Email*" size="10"><a href="https://snov.io/knowledgebase/what-is-a-valid-email-address-format/" target="_blank">Email validity requirements</a><br>
+                        <p>The part before and after the @ is assumed to be at least 2 characters long, and the top level domain is assumed to be letters only.</p>
+                        <input class="sub" type="submit" value="Submit Form">
+                        <input class="sub" type="reset" value="Clear">
+                    </form>
+                </td>
+            </tr>
+            <tr >
+                <td colspan="2" id="disclaimer"><h2 style="margin:2px">You information is safe!</h2><br>
+                    <p style="margin:3px;">We promise that your information will not be sold or misused. We protect the website builder from any incorrect information posted by a pet owner.</p><br>
+                    <a id="disc" href="https://www.ataxia.org/privacy-disclaimer-statement/?gad_source=1&gclid=CjwKCAjw5ImwBhBtEiwAFHDZx9h1TqYDe0giSTAcG_E9jzux1wmt6g9dumuDLCLvfy7iZK2k1jHV-xoC2zYQAvD_BwE" target="_blank">Privacy disclaimer</a></td>
+            </tr>
+            
+        </table>
+
+        <script>
+                
+                  
+                
+                
+            
+        </script>
+
+    </body>
+</html>
